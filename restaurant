@@ -1,0 +1,162 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <title>
+     - The Perfect Couscous -
+    </title>
+    <style>
+      #checkout {
+      color: black; 
+      background-color: #b8c74c; 
+      font-weight: bold;
+      }
+      label {
+        display: inline;
+        margin-right: 10px;
+      }
+      header {
+        text-align: center;
+        background-color: #b8c74c;
+        padding: 10px;
+        font-weight: bold;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      a {
+        color: white;
+      }
+      img {
+        height: 100px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://drisscuisine.com/wp-content/uploads/2018/11/LOGO-DrissCuisine-150x150.png" width="100" id="header-img">
+      <h1><b>
+        The Perfect Couscous
+      </b></h1>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#order-form">Place your Order</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h3 id="menu">
+          Menu
+        </h3><hr>
+        <article>
+          <h3>
+            Starter
+          </h3><br>
+            <figure>
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/10/2014-03-11_16-23-05-0137.jpg" alt="samoussas">
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/11/DSC_0108-2.jpg" alt="carotte-charmoula">
+            <img
+              src="https://drisscuisine.com/wp-content/uploads/2018/10/taboul%C3%A9.jpg" alt="taboule">
+              <figcaption> In Order : <b>Samousas, Carotte Charmoula, Taboulé</b>
+            </figure>
+              <p>
+                <h3>Samousas</h3><br>
+                Spiced meat-filled pastry triangles, crispy and golden on the outside, with a savory mix of ground beef, onions, and aromatic spices. A perfect appetizer or snack.<br>
+                <i>5€ for 3 piece</i>
+                <h3>Carotte Chamoula</h3><br>
+                Tender carrots marinated in a fragrant blend of herbs, garlic, cumin, and lemon. A fresh and zesty Moroccan-inspired side dish.<br>
+                <i>3€/per</i>
+                <h3>Taboulé</h3><br>
+                A refreshing salad made with finely chopped parsley, mint, tomatoes, bulgur, and a light lemon-olive oil dressing. Light, healthy, and full of flavor.<br>
+                <i>3€/per</i>
+              </p>
+        </article> <br><hr width="50%"><br>
+        <article>
+          <h3>
+            Main course
+          </h3><br>
+            <figure>
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/11/DSC_0131-2.jpg" alt="couscous">
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/10/driss6.jpg" alt="rfissa">
+            <img
+              src="https://drisscuisine.com/wp-content/uploads/2018/10/IMG_20161227_140817.jpg" alt="tajine">
+              <figcaption> In Order : <b>Couscous, Rfissa, Tajine</b>
+            </figure>
+              <p>
+                <h3>Couscous</h3><br>
+                Steamed semolina grains served with tender vegetables and a flavorful broth. A classic North African dish, light yet comforting.<br>
+                <i>15€80/per</i>
+                <h3>Rfissa</h3><br>
+                A traditional Moroccan dish of slow-cooked chicken, lentils, and fenugreek, served over shredded msemen (flatbread) and infused with warm spices.<br>
+                <i>3€/per</i>
+                <h3>Tajine</h3><br>
+                A slow-cooked Moroccan stew made with meat, vegetables, and aromatic spices, prepared in a traditional clay pot for rich and tender flavors.<br>
+                <i>13€50/per</i>
+              </p>
+        </article> <br><hr width="50%"><br>
+        <article>
+          <h3>
+            Dessert
+          </h3><br>
+            <figure>
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/12/DrissCuisine-verre-de-the-marocain.jpg" alt="the-a-la-menthe">
+            <img 
+              src="https://drisscuisine.com/wp-content/uploads/2018/11/DSC_0153.jpg" alt="gateau">
+            <img
+              src="https://cache.marieclaire.fr/data/photo/w1200_h630_ci/5h/salade-de-carottes-a-l-orange.jpg" alt="carotte-a-l-orange">
+              <figcaption> In Order : <b>Mint Tea, Oriental Pastries, Carrots with Orange</b>
+            </figure>
+              <p>
+                <h3>Mint Tea</h3><br>
+                Traditional Moroccan green tea infused with fresh mint leaves. Sweet, fragrant, and served hot – a symbol of hospitality.<br>
+                <i>8€ per liter</i>
+                <h3>Oriental Pastries</h3><br>
+                A selection of sweet, delicate pastries made with almonds, honey, and orange blossom water. Rich in flavor and tradition.<br>
+                <i>2€20 per piece</i>
+                <h3>Carrots with Orange</h3><br>
+                Lightly cooked carrots marinated in fresh orange juice and a hint of cinnamon. A sweet and refreshing side dish with a citrus twist.<br>
+                <i>4€ per piece</i>
+              </p>
+        </article> <br><hr><br>
+        <h3 id="order-form">Place Your Order</h3>
+        <form>
+          <h4>
+            <b>Your Choice :</b>
+          </h4>
+          <p>
+            <b>Starter :</b><br><br>
+            <label>Samousas : <input type="number" min="0" max="999"></label>
+            <label>Carotte Charmoula : <input type="number" min="0" max="999"></label>
+            <label>Taboulé : <input type="number" min="0" max="999"></label><br><br>
+            
+            <b>Main Course :</b><br><br>
+            <label>Couscous : <input type="number" min="0" max="999"></label>
+            <label>Rfissa : <input type="number" min="0" max="999"></label>
+            <label>Tagine : <input type="number" min="0" max="999"></label><br><br>
+            
+            <b>Dessert :</b><br><br>
+            <label>Mint Tea : <input type="number" min="0" max="999"></label>
+            <label>Oriental Pastries : <input type="number" min="0" max="999"></label>
+            <label>Carrots with Orange : <input type="number" min="0" max="999"></label><br><br><hr width="100">
+              <b>Extra :</b><br><br>
+              <input type="checkbox">Service
+              <input type="checkbox">Plate
+              <input type="checkbox">Oriental Clothing <br><br>
+              <b>Special request :</b><br><br>
+                <textarea placeholder="Write here" cols="20" rows="2"></textarea><br><br>
+              <input id="checkout" type="submit" value="Go To Checkout"><hr>
+          </p>
+        </form>
+    </main>
+  </body>
+  <footer>
+    <p> Made with Love - Wanelm </p>
+  </footer>
+</html>
